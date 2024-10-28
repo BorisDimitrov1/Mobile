@@ -41,6 +41,11 @@ public class ResultPage {
         return Integer.parseInt(allNumbers[allNumbers.length - 1]);
     }
 
+    /**
+     * This can be improved. Now it will fail if:
+     * - there are no vip adds
+     * - all of the adds are vip
+     */
     public int getCountOfAllVipAdds(){
 
         int result = 0;
