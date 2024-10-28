@@ -46,6 +46,7 @@ public class ResultPage {
         int result = 0;
         int currentPageVipAds;
 
+        //For each page get the number of vip ads
         for(int currentPage = 1; currentPage < getNumberOfPages(); currentPage++){
 
             currentPageVipAds = getNumberOfVipAddsForCurrentPage();

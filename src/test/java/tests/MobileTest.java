@@ -15,7 +15,7 @@ public class MobileTest {
     private static final Logger log = LogManager.getLogger(MobileTest.class);
 
     @Before
-    public void beforeScenario() throws Exception {
+    public void beforeScenario() {
         Browser.initChrome();
     }
 
@@ -23,6 +23,7 @@ public class MobileTest {
     @Test
     public void Task(){
 
+        //This could be passed to the mvn test task as a param if we need to handle different environments
         Browser.getDriver().get("https://www.mobile.bg/");
 
         LandingPage landingPage = new LandingPage();
