@@ -1,7 +1,7 @@
 # Selenium Framework
 
 ## Overview
-This project is showing the number of ads for a specific car brand and model in mobile
+This project is showing the number of ads for a specific car brand and model in mobile.bg
 using Java 17, Junit, Selenium and Maven
 
 ## Setup Instructions
